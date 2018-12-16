@@ -51,6 +51,8 @@ public class ModuleVersion {
      * an ASCII hyphen ({@code -}) or plus ({@code +}), as those characters
      * are used as delimiters in a complete module version string.
      *
+     * @param number new non-{@code null} version number string
+     *
      * @throws NullPointerException if argument is {@code null}
      * @throws IllegalArgumentException if argument contains {@code '-'}
      *                                  or {@code '+'}
