@@ -175,6 +175,7 @@
             <exclude>org/apache/tools/ant/listener/CommonsLoggingListener*</exclude>
             <exclude>org/apache/tools/ant/listener/Log4jListener*</exclude>
             <exclude>org/apache/tools/ant/taskdefs/email/MimeMailer*</exclude>
+            <exclude>org/apache/tools/ant/taskdefs/modules/</exclude>
             <exclude>org/apache/tools/ant/taskdefs/optional/NetRexxC*</exclude>
             <exclude>org/apache/tools/ant/taskdefs/optional/Xalan2TraceSupport*</exclude>
             <exclude>org/apache/tools/ant/taskdefs/optional/image/</exclude>
@@ -213,6 +214,8 @@
             <exclude>org/apache/tools/ant/taskdefs/StyleTest*</exclude>
             <!-- ERROR: Unexpected recipients -->
             <exclude>org/apache/tools/ant/taskdefs/email/EmailTask*</exclude>
+            <!-- Java 9+ module-based tasks -->
+            <exclude>org/apache/tools/ant/taskdefs/modules/</exclude>
             <!-- antlr -->
             <exclude>org/apache/tools/ant/taskdefs/optional/ANTLR*</exclude>
             <!-- obsolete -->
